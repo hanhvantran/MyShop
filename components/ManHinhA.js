@@ -15,6 +15,7 @@ export default class ManhinhA extends React.Component
             console.error(error);
           });
       }
+      
     constructor(props) {
         super(props);
         const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
@@ -25,7 +26,7 @@ export default class ManhinhA extends React.Component
     static navigationOptions = {
         title: 'Welcome',
     };
-   
+
     render() {
         const { navigate } = this.props.navigation;
         return (

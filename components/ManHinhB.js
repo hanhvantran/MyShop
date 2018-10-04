@@ -12,5 +12,12 @@ export default class ManhinhB extends React.Component {
             </View>
         )
     }
-
 }
+const style= StyleSheet.create(
+    {
+        hanh:{
+            flex: 1,
+            justifyContent: 'center',
+        }
+    }
+);
