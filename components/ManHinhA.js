@@ -5,7 +5,7 @@ export default class ManhinhA extends React.Component
 {
     getMoviesFromApiAsync() 
     {
-        return fetch("http://10.170.215.131:64829/api/getDanhSachDonViQuanLy")
+        return fetch("http://10.170.215.131/APIGiamSat/api/getDanhSachDonViQuanLy")
           .then((response) => response.json())
           .then((responseJson) => 
           {
